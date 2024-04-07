@@ -1,0 +1,23 @@
+-- Whitelist of allowed usernames
+local whitelist = {
+    "Itz_Ghost14k",
+    "",
+    ""
+}
+
+local playerName = game.Players.LocalPlayer.Name
+
+-- Check if player is whitelisted
+local isWhitelisted = false
+for _, name in ipairs(whitelist) do
+    if playerName == name then
+        isWhitelisted = true
+        break
+    end
+end
+
+if isWhitelisted then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AlemaoXd/Aleh-painel-g.6666/main/Aleh.cc%20Ownerr"))()
+else
+    game.Players.LocalPlayer:Kick("Você Nao Está na Lista Por favor Entre em contato com “g.6666” (Alehestelionato).")
+end
