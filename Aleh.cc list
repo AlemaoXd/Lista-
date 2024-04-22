@@ -1,9 +1,9 @@
 -- Whitelist of allowed usernames
 local whitelist = {
     "Itz_Ghost14k",
-    "qituoe",
-    "italo81717616w",
-    "kleytonmarquem",
+    "",
+    "",
+    "JulianoSmotthe",
 }
 
 local playerName = game.Players.LocalPlayer.Name
