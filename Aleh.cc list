@@ -1,8 +1,8 @@
 -- Whitelist of allowed usernames
 local whitelist = {
     "recIamo",
-    "ALEHBCWTUSER",
-    "Duda_funplay",
+    "se6ia",
+    "CAMLOCKERUSERALEH",
     "JulianoSmotthe",
     "Panda_PvP2010",
     "0_ducksp0",
@@ -24,5 +24,5 @@ end
 if isWhitelisted then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlemaoXd/Aleh-painel-g.6666/main/Aleh.cc%20Ownerr"))()
 else
-    game.Players.LocalPlayer:Kick("Você Nao Está na Lista Por favor Entre em contato com “g.6666” (Alehestelionato).")
+    game.Players.LocalPlayer:Kick("Você Nao Está na Lista Por favor Entre em contato com “dc:Produzo” (chega la).")
 end
